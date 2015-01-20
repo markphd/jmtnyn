@@ -89,4 +89,13 @@ nav {
   #content .grid {
     margin-right: 0; }
 
+footer {
+  width: 100%; }
+  footer p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    left: 50%;
+    margin-top: 1em; }
+
 /*# sourceMappingURL=style.css.map */
