@@ -1,0 +1,59 @@
+@charset "UTF-8"
+@import 'bourbon/bourbon'
+@import 'neat/neat'
+@import 'gallery'
+
+html
+	font-family: Helvetica
+	size: 1em
+
+body
+	padding-top: 0.5em
+	@include outer-container()
+
+nav
+	@include span-columns(4)
+	@include shift(8)
+	margin-bottom: 2em
+	@include clearfix()
+	font-size: 0.9em
+
+	ul
+		margin-top: 3em
+		li
+			display: inline
+			padding: 1em
+		a
+			text-decoration: none
+			color: #5c5c5d
+			&:hover
+				color: #99868a
+				border-bottom: 1px solid #99868a
+
+#content
+	@include span-columns(12)
+
+	.logo
+		@include span-columns(2)
+		@include fill-parent()
+		padding-bottom: 10%
+		margin-top: -4em
+		img
+			margin-bottom: 3em
+			width: 120px
+
+	.sidebar
+		@include span-columns(2)
+		@include shift(-1)
+		@include pad()
+		ul li
+			margin-top: 1em
+			list-style: none
+			text-align: right
+			font-size: 0.9em
+	.grid
+		@include omega()
+
+#about
+	@include span-columns(4)
+	@include shift(4)

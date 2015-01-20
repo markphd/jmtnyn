@@ -1,0 +1,101 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+html {
+  font-family: Helvetica;
+  size: 1em; }
+
+body {
+  padding-top: 0.5em;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+nav {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 68.23843%;
+  margin-bottom: 2em;
+  font-size: 0.9em; }
+  nav:last-child {
+    margin-right: 0; }
+  nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+  nav ul {
+    margin-top: 3em; }
+    nav ul li {
+      display: inline;
+      padding: 1em; }
+    nav ul a {
+      text-decoration: none;
+      color: #5c5c5d; }
+      nav ul a:hover {
+        color: #99868a;
+        border-bottom: 1px solid #99868a; }
+
+#content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #content:last-child {
+    margin-right: 0; }
+  #content .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    width: 100%;
+    padding-bottom: 10%;
+    margin-top: -4em; }
+    #content .logo:last-child {
+      margin-right: 0; }
+    #content .logo img {
+      margin-bottom: 3em;
+      width: 120px; }
+  #content .sidebar {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    margin-left: -8.5298%;
+    padding: 2.35765%; }
+    #content .sidebar:last-child {
+      margin-right: 0; }
+    #content .sidebar ul li {
+      margin-top: 1em;
+      list-style: none;
+      text-align: right;
+      font-size: 0.9em; }
+  #content .grid {
+    margin-right: 0; }
+
+#about {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-left: 34.11922%; }
+  #about:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */
