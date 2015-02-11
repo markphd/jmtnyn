@@ -1,3 +1,8 @@
+.grid {
+	width: 800px;
+	margin: 0 auto;
+}
+
 .og-grid {
 	list-style: none;
 	padding: 20px 0;
