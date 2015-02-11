@@ -2,7 +2,7 @@ $(function  () {
 	var all = $("#og-grid > li");
 	var elIllust = $('.sidebar li:first-child');
 	var elPhoto = $('.sidebar li:nth-child(2)');
-	var elPrint = $('.sidebar li:nth-child(3)');
+	// var elPrint = $('.sidebar li:nth-child(3)');
 	var elAll = $('.sidebar li:last-child');
 
 	function showIllust() {
@@ -15,10 +15,10 @@ $(function  () {
 		console.log('Im running showPhoto()');
 	}
 
-	function showPrint() {
-		$('.print').show(200);
-		console.log('Im running showPrint()');
-	}
+	// function showPrint() {
+	// 	$('.print').show(200);
+	// 	console.log('Im running showPrint()');
+	// }
 
 	elAll.on('click', function(e) {
 		e.preventDefault();
@@ -39,9 +39,9 @@ $(function  () {
 		showPhoto();
 	});
 
-	elPrint.on('click', function(e) {
-		e.preventDefault();
-		all.hide();
-		showPrint();
-	});
+	// elPrint.on('click', function(e) {
+	// 	e.preventDefault();
+	// 	all.hide();
+	// 	showPrint();
+	// });
 });

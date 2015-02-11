@@ -47,10 +47,10 @@ nav {
       padding: 1em; }
     nav ul a {
       text-decoration: none;
-      color: #5c5c5d; }
+      color: #F47983; }
       nav ul a:hover {
-        color: #99868a;
-        border-bottom: 1px solid #99868a; }
+        color: #F62459;
+        border-bottom: 1px solid #F62459; }
 
 #content {
   float: left;
@@ -92,10 +92,12 @@ nav {
 footer {
   width: 100%; }
   footer p {
+    color: #F2F1EF;
+    bottom: 5%;
     font-size: 13px;
     letter-spacing: 1px;
     text-align: center;
     left: 50%;
-    margin-top: 1em; }
+    margin: 1em; }
 
 /*# sourceMappingURL=style.css.map */

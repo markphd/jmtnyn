@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #F58F84;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #FFB3A7;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -87,15 +87,17 @@
 
 .og-fullimg,
 .og-details {
-	width: 50%;
-	float: left;
-	height: 100%;
+	width: 100%;
+	/*float: left;*/
+	height: 90%;
 	overflow: hidden;
 	position: relative;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .og-details {
-	padding: 0 40px 0 20px;
+	padding: 0 10px 0 10px;
 }
 
 .og-fullimg {
@@ -108,18 +110,18 @@
 	max-width: 100%;
 }
 
-.og-details h3 {
-	font-weight: 300;
-	font-size: 52px;
-	padding: 40px 0 10px;
-	margin-bottom: 10px;
+.og-details h6 {
+	color: #F2F1EF;
+	font-size: 14px;
+	padding-top: 10px;
 }
 
 .og-details p {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 22px;
-	color: #999;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	color: #F2F1EF;
 }
 
 .og-details a {

@@ -30,7 +30,7 @@ html { height: 100%; }
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    background: #f9f9f9;
+    background: #FCC9B9;
     font-weight: 300;
     font-size: 15px;
     color: #333;
@@ -39,8 +39,9 @@ body {
 }
 
 a {
-	color: #555;
+	color: #F47983;
 	text-decoration: none;
+	letter-spacing: 1px;
 }
 
 .container {
