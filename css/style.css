@@ -47,10 +47,10 @@ nav {
       padding: 1em; }
     nav ul a {
       text-decoration: none;
-      color: #F47983; }
+      color: #A9A9A9; }
       nav ul a:hover {
-        color: #F62459;
-        border-bottom: 1px solid #F62459; }
+        color: #676767;
+        border-bottom: 1px solid #676767; }
 
 #content {
   float: left;
@@ -92,7 +92,7 @@ nav {
 footer {
   width: 100%; }
   footer p {
-    color: #C93756;
+    color: #676767;
     bottom: 5%;
     font-size: 11px;
     letter-spacing: 1px;

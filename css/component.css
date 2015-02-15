@@ -34,7 +34,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #F58F84;
+	border-bottom-color: #DADADA;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -42,7 +42,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #FFB3A7;
+	background: #DADADA;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -116,7 +116,7 @@
 }
 
 .og-details h6 {
-	color: #F2F1EF;
+	color: #676767;
 	font-size: 14px;
 	padding-top: 10px;
 }
@@ -126,7 +126,7 @@
 	font-weight: 300;
 	font-size: 12px;
 	line-height: 14px;
-	color: #F2F1EF;
+	color: #676767;
 }
 
 .og-details a {
