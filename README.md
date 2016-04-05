@@ -1,3 +1,3 @@
 #Website Portfolio for Joan Marie
 
-![Screenshot](./screenshot.jpeg)
+![Screenshot](./screenshot.jpg)
